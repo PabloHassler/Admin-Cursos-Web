@@ -1,0 +1,65 @@
+@page "/ListadoCursos"
+@inject ListaDeCursosUseCase ListaDeCursosUseCase
+@inject IJSRuntime JsRuntime;
+@inject BajaCursoUseCase BajaCursoUseCase
+@inject NavigationManager Navegador
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>TITULO</th>
+            <th>FECHA DE INICIO</th>
+            <th>FECHA DE FINALIZACION</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cur in _lista)
+        {
+            <tr>
+                <td>@cur.Id</td>
+                <td>@cur.Titulo</td>
+                <td>@cur.FechaInicio</td>
+                <td>@cur.FechaFinalizacion</td>
+                <td>
+                    <button class="btn btn-primary"
+                        @onclick="()=>Modificar(cur.Id)">
+                        <i class="oi oi-pencil"></i>
+                    </button>
+                    <button class="btn btn-danger"
+                        @onclick="()=>Eliminar(cur.Titulo)">
+                        <i class="oi oi-trash"></i>
+                    </button>
+                    <button class="btn btn-info"
+                        @onclick="()=>Descripcion(cur.Id)">
+                        <i class="oi oi-eye"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@code {
+    List<Curso> _lista = new List<Curso>();
+    protected override void OnInitialized()
+    {
+        _lista = ListaDeCursosUseCase.Ejecutar();
+    }
+     async Task Eliminar(string titulo)
+    {
+        bool confirmado = await JsRuntime.InvokeAsync<bool>("confirm",$"Desea dar de baja al Curso {titulo}?");
+        if (confirmado)
+        {
+            BajaCursoUseCase.Ejecutar(titulo);
+            _lista = ListaDeCursosUseCase.Ejecutar();
+        }
+    }
+    void Modificar(int id)
+    {
+        Navegador.NavigateTo($"AgregarCurso/{id}");
+    }
+    void Descripcion(int id)
+    {
+        Navegador.NavigateTo($"Descripcion/{id}");
+    }
+}

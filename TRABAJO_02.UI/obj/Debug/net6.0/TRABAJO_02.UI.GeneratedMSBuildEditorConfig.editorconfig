@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TRABAJO_02.UI
+build_property.RootNamespace = TRABAJO_02.UI
+build_property.ProjectDir = c:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/AgregarCurso.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhckN1cnNvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/AgregarEstudiante.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhckVzdHVkaWFudGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/AgregarInscripcion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhckluc2NyaXBjaW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/Descripcion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzY3JpcGNpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/EstudiantesPorCursoActivo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNQb3JDdXJzb0FjdGl2by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/EstudiantesPorCursoFinalizado.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNQb3JDdXJzb0ZpbmFsaXphZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/ListadoCursos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFkb0N1cnNvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/ListadoEstudiantes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFkb0VzdHVkaWFudGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/ListadoInscripciones.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFkb0luc2NyaXBjaW9uZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/Listar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-avq9c65w31
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4oim03gxh7
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/hashy/Documents/GitHub/Admin-Cursos-Web/TRABAJO_02.UI/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

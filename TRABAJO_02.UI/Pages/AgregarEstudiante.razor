@@ -1,0 +1,67 @@
+@page "/AgregarEstudiante/{Id:int?}"
+@inject NavigationManager Navegador;
+@inject getEstudianteUseCase getEstudianteUseCase
+@inject ModificarEstudianteUseCase ModificarEstudianteUseCase
+@inject AltaEstudianteUseCase AltaEstudianteUseCase
+@inject VerificarDatosUseCase VerificarDatosUseCase
+
+@if (_esNuevoEstudiante)
+{
+    <h3>Dar de Alta a un nuevo Estudiante</h3>
+}
+else
+{
+    <h3>Modificando Estudiante "@_estudiante.Nombre" "@_estudiante.Apellido"</h3>
+}
+
+<input placeholder="DNI" @bind="_estudiante.Dni" class="form-control">
+<input placeholder="Nombre" @bind="_estudiante.Nombre" class="form-control">
+<input placeholder="Apellido" @bind="_estudiante.Apellido" class="form-control">
+<input placeholder="Email" @bind="_estudiante.Email" class="form-control">
+
+<button class="btn btn-primary" @onclick="Aceptar">Aceptar</button>
+
+@if(!_estudianteValido)
+{
+    <div class="alert alert-danger">
+        <ul>
+            <li>Rellenar todos los campos</li>
+        </ul>
+    </div>
+}
+
+@code {
+    Estudiante _estudiante = new Estudiante();
+    [Parameter] public int? Id { get; set; }
+    bool _estudianteValido = true;
+    bool _esNuevoEstudiante=true;
+    protected override void OnParametersSet()
+    {
+        if (Id != null)
+        {
+            var est_hallado = getEstudianteUseCase.Ejecutar(Id.Value).Id;
+            if (est_hallado != -1)
+            {
+                _estudiante = getEstudianteUseCase.Ejecutar(Id.Value);
+                _esNuevoEstudiante=false;
+            }
+        }
+    }
+    void Aceptar()
+    {
+        _estudianteValido=VerificarDatosUseCase.Ejecutar(_estudiante);
+        if(_estudianteValido){
+            if (_esNuevoEstudiante)
+            {
+                AltaEstudianteUseCase.Ejecutar(_estudiante);
+            }
+            else
+            {
+                
+                ModificarEstudianteUseCase.Ejecutar(_estudiante);
+            }
+            _estudiante = new Estudiante();
+            Navegador.NavigateTo("ListadoEstudiantes");
+        }
+    }
+}

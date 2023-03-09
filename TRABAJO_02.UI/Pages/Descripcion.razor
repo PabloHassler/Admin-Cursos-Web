@@ -1,0 +1,86 @@
+@page "/Descripcion/{Id:int?}"
+@inject NavigationManager Navegador;
+@inject ListaDeCursosUseCase ListaDeCursosUseCase
+@inject ListaDeCursosUseCase ListaDeCursosUseCase
+@inject ModificarCursoUseCase ModificarCursoUseCase
+@inject getCursoUseCase getCursoUseCase
+
+<th>CURSO: @_curso.Titulo</th>
+<table class="table">
+    <thead>
+        <tr>
+            <th>DESCRIPCION</th>
+            <th>
+                <button class="btn btn-primary"
+                    @onclick="()=>Modificar()">
+                    <i class="oi oi-pencil"></i>
+                </button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                @if(!_modificar)
+                {
+                    <td>@_curso.Descripcion</td>
+                }
+                @if(_modificar)
+                {
+                    <td>
+                        <textarea placeholder="Descripcion" @bind="_curso.Descripcion" class="form-control" rows="5" cols="40"></textarea>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="AceptarModificacion">Guardar</button>
+                    </td>
+                }
+            </tr>
+    </tbody>
+    <td>
+        @if (_DescripcionModificada)
+        {
+            <div class="alert alert-success">
+                <ul>
+                    <li>La Descripcion a sido guardada</li>
+                </ul>
+            </div>
+        }
+    </td>
+</table>
+<button class="btn btn-primary" @onclick="Volver">Volver</button>
+
+@code {
+    Curso _curso= new Curso();
+    bool _modificar=false;
+    bool _DescripcionModificada=false;
+    List<Curso> _lista = new List<Curso>();
+    protected override void OnInitialized()
+    {
+        _lista = ListaDeCursosUseCase.Ejecutar();
+    }
+    [Parameter] public int? Id { get; set; }
+    protected override void OnParametersSet()
+    {
+        if (Id != null)
+        {
+            var cur_hallado = getCursoUseCase.Ejecutar(Id.Value).Id;
+            if (cur_hallado != -1)
+            {
+                _curso = getCursoUseCase.Ejecutar(Id.Value);
+            }
+        }
+    }
+    void Modificar()
+    {
+        _DescripcionModificada = false;
+        _modificar = !_modificar;
+    }
+    void AceptarModificacion()
+    {
+        _modificar = !_modificar;
+        _DescripcionModificada = true;
+        ModificarCursoUseCase.Ejecutar(_curso);
+    }
+    void Volver(){
+        Navegador.NavigateTo("ListadoCursos");
+    }
+}

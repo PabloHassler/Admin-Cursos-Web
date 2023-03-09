@@ -1,0 +1,228 @@
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.staticwebassets.runtime.json
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.exe
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.deps.json
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.runtimeconfig.json
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.pdb
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Aplicacion.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Repositorios.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Aplicacion.pdb
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Repositorios.pdb
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\bundle\TRABAJO_02.UI.styles.css
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\projectbundle\TRABAJO_02.UI.bundle.scp.css
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.CopyComplete
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\refint\TRABAJO_02.UI.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.pdb
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\ref\TRABAJO_02.UI.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Administrator\Documents\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\appsettings.Development.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\appsettings.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.staticwebassets.runtime.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.exe
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.deps.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.runtimeconfig.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.pdb
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Aplicacion.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Repositorios.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Aplicacion.pdb
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Repositorios.pdb
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.AssemblyReference.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.AssemblyInfoInputs.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.AssemblyInfo.cs
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.CoreCompileInputs.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.MvcApplicationPartsAssemblyInfo.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.RazorAssemblyInfo.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.RazorAssemblyInfo.cs
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\staticwebassets.build.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\staticwebassets.development.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\bundle\TRABAJO_02.UI.styles.css
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\projectbundle\TRABAJO_02.UI.bundle.scp.css
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.CopyComplete
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\refint\TRABAJO_02.UI.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.pdb
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.genruntimeconfig.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\TRABAJO_02\TRABAJO_02.UI\obj\Debug\net6.0\ref\TRABAJO_02.UI.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\appsettings.Development.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\appsettings.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.staticwebassets.runtime.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.exe
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.deps.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.runtimeconfig.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.pdb
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Aplicacion.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Repositorios.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Aplicacion.pdb
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Repositorios.pdb
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.AssemblyReference.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.AssemblyInfoInputs.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.AssemblyInfo.cs
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.CoreCompileInputs.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.MvcApplicationPartsAssemblyInfo.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.RazorAssemblyInfo.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.RazorAssemblyInfo.cs
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\staticwebassets.build.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\staticwebassets.development.json
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\bundle\TRABAJO_02.UI.styles.css
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\projectbundle\TRABAJO_02.UI.bundle.scp.css
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.CopyComplete
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\refint\TRABAJO_02.UI.dll
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.pdb
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.genruntimeconfig.cache
+D:\Pablo\Materias 2022\Seminario .Net\Dotnet\Web-Admin-Cursos\TRABAJO_02.UI\obj\Debug\net6.0\ref\TRABAJO_02.UI.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\appsettings.json
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.staticwebassets.runtime.json
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.exe
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.deps.json
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.runtimeconfig.json
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.UI.pdb
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Aplicacion.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Repositorios.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Aplicacion.pdb
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\bin\Debug\net6.0\TRABAJO_02.Repositorios.pdb
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.AssemblyReference.cache
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.AssemblyInfoInputs.cache
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.AssemblyInfo.cs
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.CoreCompileInputs.cache
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.RazorAssemblyInfo.cache
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.RazorAssemblyInfo.cs
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\bundle\TRABAJO_02.UI.styles.css
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\scopedcss\projectbundle\TRABAJO_02.UI.bundle.scp.css
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.csproj.CopyComplete
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\refint\TRABAJO_02.UI.dll
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.pdb
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\TRABAJO_02.UI.genruntimeconfig.cache
+C:\Users\hashy\Documents\GitHub\Admin-Cursos-Web\TRABAJO_02.UI\obj\Debug\net6.0\ref\TRABAJO_02.UI.dll

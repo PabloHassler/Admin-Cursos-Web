@@ -1,0 +1,31 @@
+@page "/EstudiantesPorCursoFinalizado"
+@inject ListarEstudiantesFinalUseCase ListarEstudiantesFinalUseCase
+@inject getCursoUseCase getCursoUseCase
+@inject getEstudianteUseCase getEstudianteUseCase
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>CURSO</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ins in _lista)
+        {
+            <tr>
+                <td>@getEstudianteUseCase.Ejecutar(ins.Estudianteid).Nombre</td>
+                <td>@getEstudianteUseCase.Ejecutar(ins.Estudianteid).Apellido</td>
+                <td>@getCursoUseCase.Ejecutar(ins.Cursoid).Titulo</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@code {
+    List<Inscripcion> _lista = new List<Inscripcion>();
+    protected override void OnInitialized()
+    {
+        _lista = ListarEstudiantesFinalUseCase.Ejecutar();
+    }
+}

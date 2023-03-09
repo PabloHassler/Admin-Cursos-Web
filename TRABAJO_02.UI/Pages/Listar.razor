@@ -1,0 +1,150 @@
+@page "/Listar"
+@inject getInscripcionUseCase getInscripcionUseCase
+@inject ListaDeCursosUseCase ListaDeCursosUseCase
+@inject ListaDeEstudiantesUseCase ListaDeEstudiantesUseCase
+@inject ListarCursosPorEstudianteUseCase ListarCursosPorEstudianteUseCase
+@inject getEstudianteUseCase getEstudianteUseCase
+@inject ListarEstudiantesPorCursoUseCase ListarEstudiantesPorCursoUseCase
+@inject getCursoUseCase getCursoUseCase
+@inject VerificarDatosUseCase VerificarDatosUseCase
+
+<div class="form-group col-4">
+    <label for="selectorEstudiante">Listar Curso</label>
+    <select @onchange="selectorEstudiante" class="form-control" data-toggle="tooltip" data-trigger="hover" data-placement="top"
+        data-title="Status">
+        <option value=-1>Seleccionar Estudiante</option>
+        @foreach (var item in ListaDeEstudiantesUseCase.Ejecutar())
+        {
+
+            <option value="@item.Id">@item.Dni - @item.Nombre @item.Apellido</option>
+        }
+    </select>
+</div>
+<button class="btn btn-primary" @onclick="Curso">Listar</button>
+
+<div class="form-group col-4">
+    <label for="onChange">Listar Estudiante</label>
+    <select @onchange="selectorCurso" class="form-control" data-toggle="tooltip" data-trigger="hover" data-placement="top"
+        data-title="Status">
+        <option value=-1>Seleccionar Curso</option>
+        @foreach (var item in ListaDeCursosUseCase.Ejecutar())
+        {
+            <option value="@item.Id">@item.Titulo</option>
+        }
+    </select>
+</div>
+<button class="btn btn-primary" @onclick="Estudiante">Listar</button>
+
+@if(_MostrarCursos)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Lista de cursos donde esta inscripto @_estudiante.Nombre @_estudiante.Apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cur in _inscripciones)
+            {
+                <tr>
+                    <td>@getCursoUseCase.Ejecutar(cur.Cursoid).Titulo</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+@if(_MostrarEstudiantes)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Lista de Estudiantes que estan inscriptos en @_curso.Titulo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var est in _inscripciones)
+            {
+                <tr>
+                    <td>@getEstudianteUseCase.Ejecutar(est.Estudianteid).Nombre @getEstudianteUseCase.Ejecutar(est.Estudianteid).Apellido</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@if(_cursoNoSeleccionado)
+{
+    <div class="alert alert-danger" role="alert">
+        <strong>Error!</strong> No se ha seleccionado un curso.
+    </div>
+}
+@if(_estudianteNoSeleccionado)
+{
+    <div class="alert alert-danger" role="alert">
+        <strong>Error!</strong> No se ha seleccionado un estudiante.
+    </div>
+}
+
+
+@code {
+    Inscripcion _inscripcion = new Inscripcion();
+    List<Inscripcion> _inscripciones = new List<Inscripcion>();
+    Estudiante _estudiante = new Estudiante();
+    Curso _curso = new Curso();
+    bool _MostrarCursos = false;
+    bool _MostrarEstudiantes = false;
+    bool _cursoNoSeleccionado=false;
+    bool _estudianteNoSeleccionado=false;
+    private void selectorEstudiante(ChangeEventArgs Id)
+    {
+        _MostrarCursos = false;
+        _MostrarEstudiantes = false;
+        if(Id.Value!=null){
+            if(Id.Value.ToString()!=null){
+                string? resultado1=Id.Value.ToString();
+                if(resultado1!=null && resultado1!=""){
+                    _estudiante=getEstudianteUseCase.Ejecutar(int.Parse(resultado1));
+                }
+            }
+        }
+    }
+    private void selectorCurso(ChangeEventArgs Id)
+    {
+        _MostrarEstudiantes = false;
+        _MostrarCursos = false;
+        if(Id.Value!=null){
+            if(Id.Value.ToString()!=null){
+                string? resultado2=Id.Value.ToString();
+                if(resultado2!=null && resultado2!=""){
+                    _curso=getCursoUseCase.Ejecutar(int.Parse(resultado2));
+                }
+            }
+        }
+    }
+    void Curso()
+    {
+        _estudianteNoSeleccionado=false;
+        _cursoNoSeleccionado=false;
+        _MostrarEstudiantes=false;
+        if(VerificarDatosUseCase.Ejecutar(_estudiante)){
+            _inscripciones = ListarCursosPorEstudianteUseCase.Ejecutar(_estudiante);
+            _MostrarCursos=true;
+        }
+        else{
+            _estudianteNoSeleccionado=true;
+        }
+    }
+    void Estudiante()
+    {
+        _cursoNoSeleccionado=false;
+        _estudianteNoSeleccionado=false;
+        _MostrarCursos=false;
+        if(VerificarDatosUseCase.Ejecutar(_curso)){
+            _inscripciones = ListarEstudiantesPorCursoUseCase.Ejecutar(_curso);
+            _MostrarEstudiantes=true;
+        }
+        else{
+            _cursoNoSeleccionado=true;
+        }
+    }
+}

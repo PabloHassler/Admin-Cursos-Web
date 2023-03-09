@@ -1,0 +1,89 @@
+@page "/ListadoInscripciones"
+@inject IJSRuntime JsRuntime;
+@inject NavigationManager Navegador
+@inject ListaDeInscripcionesUseCase ListaDeInscripcionesUseCase
+@inject getInscripcionUseCase getInscripcionUseCase
+@inject getCursoUseCase getCursoUseCase
+@inject getEstudianteUseCase getEstudianteUseCase
+@inject BajaInscripcionUseCase BajaInscripcionUseCase 
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>DNI</th>
+            <th>CURSO</th>
+            <th>FECHA DE INSCRIPCION</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ins in _lista)
+        {
+            <tr>
+                <td>@ins.Id</td>
+                @if(_verID==ins.Id)
+                {
+                    <td class="alert alert-primary" role="alert">
+                        @getEstudianteUseCase.Ejecutar(ins.Estudianteid).Nombre @getEstudianteUseCase.Ejecutar(ins.Estudianteid).Apellido
+                    </td>
+
+                }
+                @if(_verID!=ins.Id)
+                {
+                    <td>@getEstudianteUseCase.Ejecutar(ins.Estudianteid).Dni</td>
+                }
+                
+                <td>@getCursoUseCase.Ejecutar(ins.Cursoid).Titulo</td>
+                <td>@ins.FechaInscripcion</td>
+                <td>
+                    <button class="btn btn-primary"
+                        @onclick="()=>Modificar(ins.Id)">
+                        <i class="oi oi-pencil"></i>
+                    </button>
+                    <button class="btn btn-danger"
+                        @onclick="()=>Eliminar(ins.Id)">
+                        <i class="oi oi-trash"></i>
+                    </button>
+                    <button class="btn btn-info"
+                        @onclick="()=>Ver(ins.Id)">
+                        <i class="oi oi-eye"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@code {
+    List<Inscripcion> _lista = new List<Inscripcion>();
+    int _verID=-1;
+    protected override void OnInitialized()
+    {
+        _lista = ListaDeInscripcionesUseCase.Ejecutar();
+    }
+    async Task Eliminar(int id)
+    {
+        bool confirmado = await JsRuntime.InvokeAsync<bool>("confirm",$"Desea dar de baja la inscripcion del Estudiante {getEstudianteUseCase.Ejecutar(getInscripcionUseCase.Ejecutar(id).Estudianteid).Dni} al curso {getCursoUseCase.Ejecutar(getInscripcionUseCase.Ejecutar(id).Cursoid).Titulo}?");
+        if (confirmado)
+        {   
+            var getEst=getEstudianteUseCase.Ejecutar(getInscripcionUseCase.Ejecutar(id).Estudianteid).Dni;
+            var getCur=getCursoUseCase.Ejecutar(getInscripcionUseCase.Ejecutar(id).Cursoid).Titulo;
+            if(getEst!=null){
+                BajaInscripcionUseCase.Ejecutar(getEst.Value,getCur);
+                _lista = ListaDeInscripcionesUseCase.Ejecutar();
+            }
+        }
+    }
+    void Modificar(int id)
+    {
+        Navegador.NavigateTo($"AgregarInscripcion/{id}");
+    }
+    void Ver(int id)
+    {
+        if(_verID==getInscripcionUseCase.Ejecutar(id).Id){
+            _verID=-1;
+        }
+        else{
+            _verID=getInscripcionUseCase.Ejecutar(id).Id;
+        }
+    }
+}

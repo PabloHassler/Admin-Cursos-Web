@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.UI\\TRABAJO_02.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Aplicacion\\TRABAJO_02.Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Aplicacion\\TRABAJO_02.Aplicacion.csproj",
+        "projectName": "TRABAJO_02.Aplicacion",
+        "projectPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Aplicacion\\TRABAJO_02.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\hashy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Aplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hashy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Repositorios\\TRABAJO_02.Repositorios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Repositorios\\TRABAJO_02.Repositorios.csproj",
+        "projectName": "TRABAJO_02.Repositorios",
+        "projectPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Repositorios\\TRABAJO_02.Repositorios.csproj",
+        "packagesPath": "C:\\Users\\hashy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Repositorios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hashy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Aplicacion\\TRABAJO_02.Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Aplicacion\\TRABAJO_02.Aplicacion.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.UI\\TRABAJO_02.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.UI\\TRABAJO_02.UI.csproj",
+        "projectName": "TRABAJO_02.UI",
+        "projectPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.UI\\TRABAJO_02.UI.csproj",
+        "packagesPath": "C:\\Users\\hashy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hashy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Aplicacion\\TRABAJO_02.Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Aplicacion\\TRABAJO_02.Aplicacion.csproj"
+              },
+              "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Repositorios\\TRABAJO_02.Repositorios.csproj": {
+                "projectPath": "C:\\Users\\hashy\\Documents\\GitHub\\Admin-Cursos-Web\\TRABAJO_02.Repositorios\\TRABAJO_02.Repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

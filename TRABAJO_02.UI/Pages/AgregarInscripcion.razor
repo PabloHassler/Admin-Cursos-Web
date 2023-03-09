@@ -1,0 +1,143 @@
+@page "/AgregarInscripcion/{Id:int?}"
+@inject NavigationManager Navegador;
+@inject getInscripcionUseCase getInscripcionUseCase
+@inject getEstudianteUseCase getEstudianteUseCase
+@inject getCursoUseCase getCursoUseCase
+@inject ListaDeCursosUseCase ListaDeCursosUseCase
+@inject ListaDeEstudiantesUseCase ListaDeEstudiantesUseCase
+@inject ModificarInscripcionUseCase ModificarInscripcionUseCase
+@inject AltaInscripcionUseCase AltaInscripcionUseCase
+ 
+
+@if (_esNuevaInscripcion)
+{
+    <h3>Dar de Alta una nueva Inscripcion</h3>
+}
+else
+{
+    <h3>Modificando Inscripcion "@getEstudianteUseCase.Ejecutar(_inscripcion.Estudianteid).Dni" "@getCursoUseCase.Ejecutar(_inscripcion.Cursoid).Titulo"</h3>
+}
+<div class="form-group col-4">
+    <label for="selectorEstudiante">Estudiantes</label>
+    <select @onchange="selectorEstudiante" class="form-control" data-toggle="tooltip" data-trigger="hover" data-placement="top"
+        data-title="Status">
+        <option value=-1>Seleccionar Estudiante</option>
+        @foreach (var item in ListaDeEstudiantesUseCase.Ejecutar())
+        {
+            <option value="@item.Id">@item.Dni - @item.Nombre @item.Apellido</option>
+        }
+    </select>
+</div>
+<div class="form-group col-4">
+    <label for="onChange">Cursos</label>
+    <select @onchange="selectorCurso" class="form-control" data-toggle="tooltip" data-trigger="hover" data-placement="top"
+        data-title="Status">
+        <option value=-1>Seleccionar Curso</option>
+        @foreach (var item in ListaDeCursosUseCase.Ejecutar())
+        {
+            <option value="@item.Id">@item.Titulo</option>
+        }
+    </select>
+</div>
+Fecha de Inscripcion
+<input placeholder="Fecha de inscripcion - formato: DD/MM/AA" @bind="_fechaInscripcion" class="form-control">
+
+<button class="btn btn-primary" @onclick="Aceptar">Aceptar</button>
+
+@if(_estudianteNoSeleccionado==2)
+{
+    <div class="alert alert-danger" role="alert">
+        Seleccione un Estudiante
+    </div>
+}
+@if(_cursoNoSeleccionado==2)
+{
+    <div class="alert alert-danger" role="alert">
+        Seleccione un Curso
+    </div>
+}
+
+@code {
+    Inscripcion _inscripcion = new Inscripcion();
+    DateTime _fechaInscripcion = new DateTime();
+    protected override void OnInitialized()
+    {
+        _fechaInscripcion=DateTime.Now;
+    }
+    Estudiante _estudiante = new Estudiante();
+    Curso _curso = new Curso();
+    int _estudianteNoSeleccionado = 0;
+    int _cursoNoSeleccionado = 0;
+    [Parameter] public int? Id { get; set; }
+
+    bool _esNuevaInscripcion=true;
+    protected override void OnParametersSet()
+    {
+        if (Id != null)
+        {
+            var ins_hallado = getInscripcionUseCase.Ejecutar(Id.Value).Id;
+            if (ins_hallado != -1)
+            {
+                _inscripcion = getInscripcionUseCase.Ejecutar(Id.Value);
+                _esNuevaInscripcion=false;
+            }
+        }
+    }
+    private void selectorEstudiante(ChangeEventArgs Id)
+    {
+        _estudianteNoSeleccionado=2;
+        if(Id.Value!=null){
+            if(Id.Value.ToString()!=null){
+                string? resultado1=Id.Value.ToString();
+                if(resultado1!=null && resultado1!="" && resultado1!="-1"){
+                    _estudiante=getEstudianteUseCase.Ejecutar(int.Parse(resultado1));
+                    _estudianteNoSeleccionado = 1;
+                }
+                else{
+                    _estudianteNoSeleccionado=2;
+                }
+            }
+        }
+    }
+    private void selectorCurso(ChangeEventArgs Id)
+    {
+        _cursoNoSeleccionado=2;
+        if(Id.Value!=null){
+            if(Id.Value.ToString()!=null){
+                string? resultado2=Id.Value.ToString();
+                if(resultado2!=null && resultado2!="" && resultado2!="-1"){
+                    _curso=getCursoUseCase.Ejecutar(int.Parse(resultado2));
+                    _cursoNoSeleccionado = 1;
+                }
+                else{
+                    _cursoNoSeleccionado=2;
+                }
+            }
+        }
+    }
+    void Aceptar()
+    {
+        if(_estudianteNoSeleccionado==0){
+            _estudianteNoSeleccionado=2;
+        }
+        if(_cursoNoSeleccionado==0){
+            _cursoNoSeleccionado=2;
+        }
+        if(_estudianteNoSeleccionado==1 && _cursoNoSeleccionado==1){
+            if (_esNuevaInscripcion)
+            {
+
+                AltaInscripcionUseCase.Ejecutar(_estudiante, _curso, _fechaInscripcion);
+            }
+            else
+            {
+                _inscripcion.Estudianteid = _estudiante.Id;
+                _inscripcion.Cursoid = _curso.Id;
+                _inscripcion.FechaInscripcion = _fechaInscripcion;
+                ModificarInscripcionUseCase.Ejecutar(_inscripcion);
+            }
+            _inscripcion = new Inscripcion();
+            Navegador.NavigateTo("ListadoInscripciones");
+        }
+    }
+}
